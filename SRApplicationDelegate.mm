@@ -229,7 +229,7 @@
 	[statusMenu addItemWithTitle: @"About RDM" action: @selector(showAbout) keyEquivalent: @""];
 	
 	
-	[statusMenu addItemWithTitle: @"Quit" action: @selector(quit) keyEquivalent: @""];
+	[statusMenu addItemWithTitle: @"Quit" action: @selector(quit) keyEquivalent: @"q"];
 	[statusMenu setDelegate: self];
 	[statusItem setMenu: statusMenu];
 }
